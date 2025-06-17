@@ -24,6 +24,13 @@ function App() {
     }
   };
 
+  // to edit
+  const handleEdit = (id, newText) => {
+      setTasks(tasks.map(task => 
+          task.id === id ? { ...task, text: newText } : task
+      ));
+  };
+
   return (
     <>
       <div className='main-container'>
