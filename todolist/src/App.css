@@ -103,3 +103,10 @@ li {
     height: 17px;
     margin-right: 0.5px;
 }
+
+.task-input-edit {
+    padding: 0.5rem;
+    font-size: large;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-style: none;
+}
